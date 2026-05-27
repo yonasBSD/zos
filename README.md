@@ -27,7 +27,7 @@ ZOS / Zero-OS is the operating system layer that runs directly on bare-metal nod
 - Storage abstraction and management
 - Capacity reporting and resource accounting
 
-ZOS nodes coordinate with higher-level grid infrastructure to receive reservations and report status, while internally using Zinit for service supervision and zosbase libraries for shared primitives.
+ZOS nodes coordinate with higher-level grid infrastructure to receive reservations and report status, while internally using ZOS Init for service supervision and ZOS Base libraries for shared primitives.
 
 ## ZOS / Zero-OS
 
