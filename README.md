@@ -6,7 +6,7 @@ Zero-OS is an autonomous operating system designed to expose raw compute, storag
 
 This repository hosts V2 of Zero-OS, a complete rewrite of the autonomous node operating system. Zero-OS handles provisioning, networking, and storage automatically through built-in protocols. It does not expose a traditional management interface; instead, it waits for reservations from a trusted source and applies them to reality. This design eliminates the need for interactive administration and reduces the attack surface of deployed nodes.
 
-If you want to know about the history and decisions that motivated the creation of V2, you can read [this article](https://github.com/threefoldtech/zosbase/blob/main/docs/internals/history/readme.md).
+If you want to know about the history and decisions that motivated the creation of V2, you can read [this article](https://github.com/threefoldtech/zos_base/blob/main/docs/internals/history/readme.md).
 
 ## What this repository contains
 
@@ -47,9 +47,9 @@ This repository is owned and maintained by TF-Tech NV, a Belgian company respons
 
 ## Documentation
 
-Start exploring the codebase by first checking the [documentation](https://github.com/threefoldtech/zosbase/tree/main/docs) and [specification documents](/specs).
+Start exploring the codebase by first checking the [documentation](https://github.com/threefoldtech/zos_base/tree/main/docs) and [specification documents](/specs).
 
-An [FAQ](https://github.com/threefoldtech/zosbase/blob/main/docs/faq/readme.md) is also available for common questions.
+An [FAQ](https://github.com/threefoldtech/zos_base/blob/main/docs/faq/readme.md) is also available for common questions.
 
 ## Setting up your development environment
 
@@ -64,11 +64,11 @@ Zero-OS is deployed on several network environments:
 - **QA network**: Internal testing of new features. Can be behind development. [Dashboard](https://dashboard.qa.grid.tf/)
 - **dev network**: Ephemeral network for developing and testing new features. Can be created and reset at any time. [Dashboard](https://dashboard.dev.grid.tf/)
 
-Learn more about the different networks by reading the [upgrade documentation](https://github.com/threefoldtech/zosbase/blob/main/docs/internals/identity/upgrade.md#philosophy).
+Learn more about the different networks by reading the [upgrade documentation](https://github.com/threefoldtech/zos_base/blob/main/docs/internals/identity/upgrade.md#philosophy).
 
 ### Provisioning of workloads
 
-Zero-OS does not expose an interface. Instead, it waits for reservations to happen on a trusted source, and once a reservation is available, the node applies it to reality. You can start reading about [provisioning](https://github.com/threefoldtech/zosbase/tree/main/docs/internals/provision) in this document.
+Zero-OS does not expose an interface. Instead, it waits for reservations to happen on a trusted source, and once a reservation is available, the node applies it to reality. You can start reading about [provisioning](https://github.com/threefoldtech/zos_base/tree/main/docs/internals/provision) in this document.
 
 ## Community
 
